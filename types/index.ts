@@ -6,6 +6,7 @@ export interface Conversation {
 
 export interface AppUser {
 	email: string
+	name: string
 	lastSeen: Timestamp
 	photoURL: string
 }
